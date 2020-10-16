@@ -1,0 +1,64 @@
+body {
+
+	background-image: url("1.jpg");
+
+	/* Background image is centered vertically and horizontally at all times */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+	/* Font Colour */
+	color:#ff5f40;
+}
+.head{
+	text-align: center;
+	padding-top: 5rem;
+	color: black
+}
+.myBtn{
+	font-size: 3rem;
+	font-weight: bolder;
+	border: 5px black;
+	color: #f038ff;
+
+}
+
+.myBtn:hover {
+  background-color: #f038ff;
+	font-size: 5rem;
+
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+border-bottom-right-radius: 100px;
+   border-top-left-radius: 100px;
+   border-bottom-left-radius: 30px;
+   border-top-right-radius: 30px;
+	 background-color: #f038ff;
+  color: white;
+  transform: scale(1.2);
+  border: solid 5px black;
+  transition: 4s;
+}
+
+
+.details {
+
+
+
+  position: relative;
+  text-align: center;
+
+  animation-name: apple;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes apple {
+  0%   {color:red;}
+  25%  {color:yellow;}
+  50%  {color:blue;}
+  75%  {color:green;}
+  100% {color:red;}
+}
